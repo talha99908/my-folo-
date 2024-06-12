@@ -1,0 +1,133 @@
+/* common css start*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+}
+a{
+    text-decoration: none;
+}
+.container{
+    width: 1170px;
+    margin: auto;
+}
+.row{
+   display: flex;
+   flex-wrap: wrap;
+}
+.align-center{
+    align-items: center;
+}
+
+ul li{
+    list-style-type: none;
+}
+.btm{
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 14px;
+    color: black;
+    background-color: #cfc91d;
+     padding: 19px 43px;
+     display: inline-block;
+    }
+
+/* common css end */
+
+ /* nav bar start */
+nav{
+    background-color: #02918b;
+}
+nav .logo{
+    width: 30%;
+   
+}
+nav .row{
+    align-items: center;
+}
+nav .menu{
+    width: 70%;
+    text-align: right;
+}
+nav .menu ul li{
+    display: inline-block;
+}
+nav .menu ul li a{
+    color: white;
+    font-weight: 800;
+    font-size: 12px;
+    text-transform: uppercase;
+    padding: 26px 25px;
+    display: inline-block;
+}
+nav ul li .submenu{
+    position: absolute;
+     border: 1px solid #ccc;
+     opacity: 0;
+     visibility: hidden;
+     transition: 0.5s;
+}
+nav ul li:hover .submenu{
+    opacity: 1;
+    visibility: visible;
+}
+nav ul li .submenu li{
+    display: block;
+}
+nav ul li .submenu a{
+    color: white;
+    padding: 15px 10px;
+    display: block;
+    text-align: center;
+    border-bottom: 1px solid #ccc;
+}
+/* nav bar end */
+#bannar{
+    background-image: url(../bannar.jpg);
+    height: 730px;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    display: block;
+}
+#bannar .row{
+    height: 100%;
+}
+#bannar .bannar-cnt{
+    /* background-color: red; */
+}
+#bannar .bannar-cnt h5{
+    font-size: 30px;
+    font-weight: 400;
+}
+#bannar .bannar-cnt h1{
+    font-size: 68px;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 30px;
+}
+#bannar .bannar-cnt img{
+    margin: 50px 0;
+}
+
+
+
+/* banar start */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* banar end */
